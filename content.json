@@ -1,0 +1,37 @@
+{
+  "texts": {
+    "hero_lead": "言葉や国籍を越えて、日常の中で友だちになる。DESAは1969年から続く、同志社大学の国際交流サークルです。",
+    "about_lead": "DESA（デサ）は、同志社大学の文化系公認団体として活動する国際交流サークルです。1969年3月、同志社アーモスト館に約30名が集まって生まれました。同志社大学と同志社女子大学の学生が所属し、留学生や帰国生も多く在籍しています。今出川・京田辺の両キャンパスを拠点に、半世紀以上にわたって国境を越えた交流が続いています。海外の大学や国際交流団体とは、オンライン（Zoom）での交流も行っています。",
+    "shinkan_text": "新入生・留学生のみなさんの入会を歓迎します。新歓イベントの日程や参加方法などの最新情報は、SNSでお知らせしています。まずはフォローして、活動の雰囲気をのぞいてみてください。",
+    "shinkan_schedule": "新歓イベントの具体的な日程・会場は未定です。決まり次第、SNSで告知します。"
+  },
+  "links": {
+    "founder_story": "",
+    "instagram": "https://www.instagram.com/desa_doshisha2026/",
+    "x": "https://x.com/DESA2024du",
+    "questionbox": "https://sunq.me/x654zs8ida"
+  },
+  "photos": {
+    "photo_1": "",
+    "photo_2": "",
+    "photo_3": "",
+    "photo_4": "assets/campus-imadegawa.jpg",
+    "photo_5": "",
+    "photo_6": "",
+    "photo_7": "",
+    "photo_8": "",
+    "photo_9": "assets/amherst.jpg",
+    "photo_10": "",
+    "photo_11": "assets/campus-clark.jpg",
+    "photo_12": "assets/campus-chapel.jpg",
+    "photo_13": "assets/campus-kyotanabe.jpg",
+    "photo_14": "assets/founder-takemoto.jpg",
+    "photo_15": "assets/amherst.jpg",
+    "photo_16": "",
+    "photo_17": "",
+    "photo_18": "",
+    "photo_19": "",
+    "photo_20": "",
+    "photo_21": ""
+  }
+}

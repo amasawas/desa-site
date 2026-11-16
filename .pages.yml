@@ -1,0 +1,111 @@
+media:
+  - name: assets
+    label: 写真フォルダ（assets）
+    input: assets
+    output: assets
+content:
+  - name: site-content
+    label: サイトの内容（文章・リンク・写真）
+    type: file
+    path: content.json
+    format: json
+    fields:
+      - name: texts
+        label: 文章
+        type: object
+        fields:
+          - name: hero_lead
+            label: トップの紹介文
+            type: text
+          - name: about_lead
+            label: DESAとはの紹介文
+            type: text
+          - name: shinkan_text
+            label: 新歓情報の文章
+            type: text
+          - name: shinkan_schedule
+            label: 新歓の日程・会場のお知らせ
+            type: text
+      - name: links
+        label: リンク・ボタン
+        type: object
+        fields:
+          - name: founder_story
+            label: 「創立者の物語を読む」のURL（空欄なら未設定）
+            type: string
+          - name: instagram
+            label: InstagramのURL
+            type: string
+          - name: x
+            label: XのURL
+            type: string
+          - name: questionbox
+            label: 質問箱のURL
+            type: string
+      - name: photos
+        label: 写真（差し替え）
+        type: object
+        fields:
+          - name: photo_1
+            label: "写真1：京都から世界へ、世界から京都へ。｜カンボジア派遣「ニョニュム」で現地の子どもたちと集まるメンバー"
+            type: image
+          - name: photo_2
+            label: "写真2：京都から世界へ、世界から京都へ。｜EVE祭でフォーの屋台を出すメンバー"
+            type: image
+          - name: photo_3
+            label: "写真3：京都から世界へ、世界から京都へ。｜DESA公式ビジュアル（ハート型の世界地図とDESAのロゴ）"
+            type: image
+          - name: photo_4
+            label: "写真4：DESAとは｜同志社大学今出川キャンパスの景観（クラーク記念館と良心館）"
+            type: image
+          - name: photo_5
+            label: "写真5：活動のハイライト｜EVE祭でフォーの屋台を出すメンバー"
+            type: image
+          - name: photo_6
+            label: "写真6：活動のハイライト｜カンボジアの子どもたちと交流するメンバー（クラウドファンディング紹介画像）"
+            type: image
+          - name: photo_7
+            label: "写真7：活動のハイライト｜公認国際系サークル合同新歓の告知ビジュアル"
+            type: image
+          - name: photo_8
+            label: "写真8：新歓情報・SNS｜新歓合宿で集まるメンバー"
+            type: image
+          - name: photo_9
+            label: "写真9：理念｜同志社アーモスト館の外観"
+            type: image
+          - name: photo_10
+            label: "写真10：団体概要｜新歓で集まるDESAのメンバー"
+            type: image
+          - name: photo_11
+            label: "写真11：活動の舞台 ― ふたつのキャンパス｜同志社大学今出川キャンパスのクラーク記念館"
+            type: image
+          - name: photo_12
+            label: "写真12：活動の舞台 ― ふたつのキャンパス｜同志社大学今出川キャンパスの礼拝堂"
+            type: image
+          - name: photo_13
+            label: "写真13：活動の舞台 ― ふたつのキャンパス｜同志社大学京田辺キャンパスの景観"
+            type: image
+          - name: photo_14
+            label: "写真14：歴史 ― 創立の物語｜創立者・竹本繁さんの写真"
+            type: image
+          - name: photo_15
+            label: "写真15：歴史 ― 創立の物語｜同志社アーモスト館の外観"
+            type: image
+          - name: photo_16
+            label: "写真16：年間行事 ― 春・夏・秋・冬｜春の新歓で集まるメンバー"
+            type: image
+          - name: photo_17
+            label: "写真17：年間行事 ― 春・夏・秋・冬｜夏の個人企画（BBQ・海）で集まるメンバー"
+            type: image
+          - name: photo_18
+            label: "写真18：年間行事 ― 春・夏・秋・冬｜秋のハロウィンパーティーで仮装するメンバー"
+            type: image
+          - name: photo_19
+            label: "写真19：カンボジア派遣「ニョニュム」｜カンボジアで現地の人々と交流する派遣メンバー"
+            type: image
+          - name: photo_20
+            label: "写真20：ここでしかできない経験 ― 清水寺でのアルバイト｜夜の清水寺"
+            type: image
+          - name: photo_21
+            label: "写真21：毎年開かれる、OB・OGの集まり｜OB会で集まる卒業生と現役メンバー"
+            type: image
